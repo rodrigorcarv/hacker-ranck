@@ -27,8 +27,6 @@ Explanation
     We print the sum of the array's elements: 1 + 2 + 3 + 4 + 10 + 11 = 31.
  */
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
