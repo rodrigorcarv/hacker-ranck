@@ -41,6 +41,7 @@ import java.util.Scanner;
 
 public class JavaSubstring {
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String S = in.next();
@@ -55,6 +56,5 @@ public class JavaSubstring {
             System.out.println(S.substring(start, end));
             
         }
-        
     }
 }

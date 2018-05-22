@@ -1,10 +1,6 @@
 package br.com.rrc.hackerranck.java;
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
 /**
     Static initialization blocks are executed when the class is loaded, and you can initialize static variables in those blocks.
@@ -42,6 +38,7 @@ import java.util.regex.*;
     java.lang.Exception: Breadth and height must be positive
  */
 
+@SuppressWarnings("resource")
 public class JavaStaticInitializerBlock {
 
     static int B;
